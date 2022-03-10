@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sam Gaskill's Web Portfolio</title>
+        <meta charset="utf-8" name="viewport" 
+        content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+        <link rel="stylesheet" href="bootstrap\bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap\mdb.min.css">
+        <link rel="stylesheet" href="extra.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+       
+</head>
+<body>
+    <div class="row vw-100 h-md-100">
+        <div class="col-md-6 p-0 bg-RYB h-md-100 animated slideInLeft faster">
+            <div class="d-md-flex align-items-center h-100 p-5 text-center justify-content-center">
+                <div class="helloscreen pt-5 pb-5">
+                    <h1 class="animated jackInTheBox fast acme txt-ghost display-1">Welcome</h1>
+                    <h2 class="animated jackInTheBox acme fast txt-ghost display-2">to Sam Gaskill's</h2>
+                    <h3 class="animated jackInTheBox acme fast txt-ghost display-1">portfolio!</h3>
+                </div><!--helloscreen-->
+            </div><!--flex-->
+        </div><!--hello-->
+        <div class="col-md-6 p-0 h-md-100 contents">
+            <div class="d-md-flex align-items-center h-md-100 bg-glau p-5 justify-content-center animated slideInRight faster">
+                <ul class="contents display-1">
+                    <li class="acme animated jackInTheBox" id="link"><a href="#about" class="txt-ghost headerLink">About Me</a></li>
+                    <li class="acme animated jackInTheBox" id="link"><a href="#projects" class="txt-ghost headerLink">Projects</a></li>
+                    <li class="acme animated jackInTheBox" id="link"><a href="#contact" class="txt-ghost headerLink">Contact</a></li>
+                </ul>
+            </div><!--col-->
+        </div><!--contents-->
+    </div><!--row-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-xic">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#next">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div><!--navbarSupportedContent-->
+      </nav><!--navbar end-->
+
+      <div class="jumbotron jumbotron-fluid bg-pant mt-0 mb-0">
+        <div class="container">
+          <h1 class="acme display-3 txt-ghost">About Me</h1>      
+          <p id="about" class="txt-ghost">Tap to Find Out!</p>
+        </div> <!--container-->
+      </div><!--jumbotron-->
+      
+      <div class="fluid-container">
+        <div id="accordion">
+            <div class="card">
+              <div class="card-header bg-pant" id="headingOne">
+                <h5 class="mb-0 text-center txt-ghost">
+                  <button class="btn btn-link txt-ghost display-2 acme headerLink collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <h1>Short Biography</h1>
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    <p class="txt-xic">I was born on July 9, 1992 in Morehead City, North Carolina. I have always been fond of working with computers, and have built some personal computers of my own. I started working in earnest at Wake Technical community college
+                    in 2019. I have been working at my Associates in Web Design ever since!</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header bg-pant" id="headingTwo">
+                <h5 class="mb-0 text-center txt-ghost">
+                  <button class="btn btn-link txt-ghost display-2 acme headerLink collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <h1>Skills Obtained</h1>
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  <ul>
+                    <li class="text-center">HTML5</li>
+                    <li class="text-center">CSS</li>
+                    <li class="text-center">Javascript</li>
+                    <li class="text-center">Bootstrap</li>
+                    <li class="text-center">PHP</li>
+                    <li class="text-center">WordPress</li>
+                    <li class="text-center">Joomla</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header bg-pant" id="headingThree">
+                <h5 class="mb-0 text-center txt-ghost">
+                  <button class="btn btn-link txt-ghost display-2 acme headerLink collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <h1>For More Information...</h1>
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    <p class="text-center">Pleae check out my resume!</p>
+                    <div class="text-center mb-3"><button type="button" class="btn btn-primary align-items-center justify-content-center text-center"><a href="SamGResume.pdf" class="text-center txt-ghost" target="_BLANK">Open</a></button></div>
+                    <p class="text-center">And my blog that is updated frequently!</p>
+                    <div class="text-center mb-3"><button type="button" class="btn btn-primary align-items-center justify-content-center text-center"><a href="https://mithoughts451291837.wordpress.com" class="text-center txt-ghost" target="_BLANK">Open</a></button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div><!--about me section end-->
+    
+    <div class="jumbotron jumbotron-fluid bg-glau mt-0 mb-0">
+    <div class="container">
+        <h1 class="acme display-3 txt-ghost">Project Gallery</h1>
+        <p class="txt-ghost" id="projects">Tap the project to find out more information!</p>      
+    </div> <!--container-->
+    </div><!--jumbotron-->
+
+    <div class="fluid-container">
+        <div class="row">
+            <div class="col-md-4 wow bounceInUp">
+                <img src="images/biltmore.png" class="img-fluid" data-toggle="modal" data-target="#modal1">
+              </div>
+        
+              <div class="col-md-4 wow tada">
+                <img src="images/kure1.png" class="img-fluid" data-toggle="modal" data-target="#modal2">
+              </div>
+        
+              <div class="col-md-4 wow fadeInLeft">
+                <img src="images/portfoliosite.png" class="img-fluid" data-toggle="modal" data-target="#modal3">
+              </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 wow bounceInUp">
+                <img src="images/news.png" class="img-fluid" data-toggle="modal" data-target="#modal4">
+              </div>
+        
+              <div class="col-md-4 wow tada">
+                <img src="images/changeCalc.png" class="img-fluid" data-toggle="modal" data-target="#modal5">
+              </div>
+        
+              <div class="col-md-4 wow fadeInLeft">
+                <img src="images/resumeBuilder.png" class="img-fluid" data-toggle="modal" data-target="#modal6">
+              </div>
+        </div>
+    </div><!--fluid container-->
+  
+  <!-- Modals -->
+  <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title acme">Biltmore Companion App</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>An App to use with the Biltmore Website, includes a scavenger hunt, 
+              Google Maps, bootstrap modals and more. My first time really digging into bootstrap options.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary"><a href="https://wcet3.waketech.edu/stgaskill/WEB125/biltmore/index.html" class="text-center txt-ghost" target="_BLANK">Link</a></button>
+          <button type="button" class="btn btn-danger txt-ghost" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title acme">Kure Beach</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>A tourist website for Kure Beach I built using CSS grid. It proved to be very handy, and saved me from using
+              the dreaded floats that destroyed my web pages with a simple "float left"!</p>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary"><a href="https://wcet3.waketech.edu/stgaskill/WEB125/ch9/kurebeach.html" class="text-center txt-ghost" target="_BLANK">Link</a></button>
+          <button type="button" class="btn btn-danger txt-ghost" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title acme">Portfolio Site - Alpha version</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>An early build of my portfolio site that you are on right now! Made using the CSS Grid.</p>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary"><a href="https://wcet3.waketech.edu/stgaskill/WEB210/Lesson10/index.html" class="text-center txt-ghost" target="_BLANK">Link</a></button>
+          <button type="button" class="btn btn-danger txt-ghost" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title acme">Widget Co. Press Release</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>A press release built primarily using float commands, no bootstrap or an extensions were required to complete this web page.</p>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary"><a href="https://wcet3.waketech.edu/stgaskill/WEB210/Lesson2/Lesson02Start.html" class="text-center txt-ghost" target="_BLANK">Link</a></button>
+          <button type="button" class="btn btn-danger txt-ghost" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title acme">Change Calculator</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>A basic calculator that gives you the least amount of coins you will get back from a transaction.</p>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary"><a href="https://wcet3.waketech.edu/stgaskill/WEB115/Chapter10/" class="text-center txt-ghost" target="_BLANK">Link</a></button>
+          <button type="button" class="btn btn-danger txt-ghost" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title acme">Resume Builder</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>A resume builder I built in my early days of web development school. Just plug in your info and go!</p>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary"><a href="https://wcet3.waketech.edu/stgaskill/WEB115/Final/finalProject.html" class="text-center txt-ghost" target="_BLANK">Link</a></button>
+          <button type="button" class="btn btn-danger txt-ghost" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div><!--modal end-->
+  <div class="jumbotron jumbotron-fluid mt-3 bg-RYB mb-0" id="contact">
+    <div class="container mb-0">
+      <h1 class="display-4 marker txt-ghost text-center acme">Contact Information</h1>
+    </div>
+  </div>
+  <i class=""></i>
+  <footer class="page-footer font-small bg-RYB darken-3">
+    <div class="container mt-0">
+      <div class="row">
+        <div class="col-md-12 py-0">
+          <div class="mb-0 pb-2">
+            <div class="mb-0 flex-center">
+              <a class="em-ic ml-0 mr-5" href="mailto:stgaskill@my.waketech.edu">
+                <i class="far fa-envelope fa-lg txt-ghost mr-md-5 fa-2x align-items-center pl-5 ml-5"> </i>
+                <p class="caption txt-ghost text-center mr-5">stgaskill@my.waketech.edu</p>
+              </a>
+              <a class="tw-ic ml-0 mr-2" href="tel:919-633-0605">
+                <i class="fas fa-phone fa-lg txt-ghost mr-md-5 ml-3 fa-2x pl-3"> </i>
+                <p class="caption  txt-ghost mr-5">919-633-0605</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 pb-5">
+          <div class="mb-5 flex-center">
+            <a class="fb-ic ml-0 mr-2">
+              <i class="fab fa-facebook-f fa-lg txt-ghost mr-md-5 mr-3 fa-2x pl-4"> </i>
+              <p class="caption txt-ghost">Facebook</p>
+            </a>
+            <a class="tw-ic ml-1">
+              <i class="fab fa-twitter fa-lg txt-ghost mr-md-5 mr-3 fa-2x pl-3"> </i>
+              <p class="caption  txt-ghost">Twitter</p>
+            </a>
+            <a class="li-ic ml-0">
+              <i class="fab fa-linkedin-in fa-lg txt-ghost mr-md-5 mr-3 fa-2x pl-3"> </i>
+              <p class="caption  txt-ghost">LinkdIn</p>
+            </a>
+            <a class="ins-ic ml-0">
+              <i class="fab fa-instagram fa-lg txt-ghost mr-md-5 mr-3 fa-2x pl-4"> </i>
+              <p class="caption  txt-ghost">Instagram</p>
+            </a>
+          </div>
+        </div><!--col-->
+      </div><!--bottom row-->
+    </div>
+  </footer>
+</body>
+
+<script src="bootstrap\jquery.slim.min.js"></script>
+<script src="bootstrap\popper.min.js"></script>
+<script src="bootstrap\bootstrap.min.js"></script>
+<script src="bootstrap\mdb.min.js"></script>
+
+</html>

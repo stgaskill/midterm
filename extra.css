@@ -1,0 +1,41 @@
+/*Coolors
+https://coolors.co/0d0106-3626a7-657ed4-ff331f-fbfbff
+
+#0D0106 - Xiketic
+#3626A7 - Blue Pantone
+#657ED4 - Glaucous
+#FF331F - Red RYB
+#FBFBFF - Ghost White
+*/
+
+@media (min-width: 768px) {
+    .h-md-100 { height: 100vh; }
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Google Fonts*/
+.acme {font-family: 'Acme', sans-serif;}
+.mons{font-family: 'Montserrat', sans-serif;}
+
+/*Color Shortcut*/
+.bg-xic{background: #0D0106;}
+.txt-xic{color: #0D0106;}
+.bg-pant{background: #3626A7;}
+.txt-pant{color: #3626A7;}
+.bg-glau{background: #657ED4;}
+.txt-glau{color: #657ED4;}
+.bg-RYB{background: #FF331F;}
+.txt-RYB{color: #FF331F;}
+.bg-ghost{background: #FBFBFF;}
+.txt-ghost{color: #FBFBFF;}
+
+.headerLink:hover{
+    color: #FF331F;
+}
